@@ -1,0 +1,47 @@
+@media screen and (min-width: 1140px) {
+    .header-container {
+       display: flex;
+       align-items: center;
+       gap: 4rem;
+    }
+
+    /* NAVIGATION BAR */
+    .nav-bar {
+        width: 100%;
+        position: absolute;
+        top: 3rem;
+        /* position: sticky; */
+        top:3rem;
+        z-index: 10;
+    }
+     
+    .nav-links {
+        align-items: center;
+        
+    }
+    /* MAIN SECTION */
+    
+    .image-container article {
+        width: 300px;
+        height: 150px;
+    }
+
+    article img {
+        width: 250px !important;
+        height: 100px !important;
+    }
+
+    article p {
+        font-size: 1.2rem !important;
+    }
+
+    /*  FOOTER SECTION */
+    footer {
+        bottom: 0px;
+        z-index: 10;
+    }
+    
+}
+
+
+

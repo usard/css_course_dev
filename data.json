@@ -1,0 +1,64 @@
+{
+    "mobiles": [
+        {
+            "name" : "iPhone 11",
+            "image_url": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Image.png",
+            "alt_text": "iPhone 11 image"
+        },
+        {
+            "name": "iPhone 12",
+            "image_url":"https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
+            "alt_text": "iPhone 12 image"
+        },
+        {
+            "name": "iPhone 13",
+            "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-202207-5-4inch-green?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1656713272172",
+            "alt_text": "iPhone 13 image"
+        },
+        {
+            "name": "iPhone 14",
+            "image_url": "https://www.pngmart.com/files/22/iPhone-14-PNG-Clipart.png",
+            "alt_text": "iPhone 14 image"
+        },
+        {
+            "name": "iPhone 14 pro",
+            "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-deeppurple?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1663703840578",
+            "alt_text": "iPhone 14 Pro image"
+        }
+    ],
+    "images":[
+        {
+            "name": "iPhone 14 pro",
+            "link": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-deeppurple?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1663703840578"
+        },
+       
+        {
+            "link": "https://m.media-amazon.com/images/I/91VoPbGFbPL._AC_SL1500_.jpg",
+            "name": "Samsung Galaxy S22 Ultra 5G" 
+        },
+        {
+            "link": "https://img4.gadgetsnow.com/gd/images/products/additional/large/G455734_View_1/mobiles/smartphones/realme-11-pro-5g-256-gb-oasis-green-8-gb-ram-.jpg",
+            "name": "Realme 11 Pro 5G 256 GB" 
+        },
+        {
+            "link": "https://vlebazaar.in/image/cache/catalog/-OPPO-F11-Pro-Thunder-Black-64-GB-6-GB-RAM/-OPPO-F11-Pro-Thunder-Black-64-GB-6-GB-RAM-550x550h.jpg",
+            "name": "OPPO F11 Pro Thunder Black" 
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/51IdwvkUcRL._AC_SL1080_.jpg",
+            "name": "The Xperia Z3+" 
+        },
+        {
+            "name": "iPhone 14 ",
+            "link": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-deeppurple?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1663703840578"
+        },
+       
+        {
+            "link": "https://m.media-amazon.com/images/I/91VoPbGFbPL._AC_SL1500_.jpg",
+            "name": "Samsung Galaxy " 
+        }
+        
+    ]
+
+
+}

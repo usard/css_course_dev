@@ -1,0 +1,207 @@
+/* to  make the old browsers support box-sizing  */
+
+/* GLOBAL CSS  */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+
+a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(0,0,0,0.5);
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    overflow-x: hidden;
+}
+
+
+
+/*  HEADER CSS */
+
+header {
+    background-color: green;
+    height: 4rem;
+}
+
+.header-container {
+
+   width: 90vw;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.catcher {
+  display: none;
+}
+
+
+/* MAIN SECTION */
+
+/* slider */
+main {
+    /* height: calc(100vh - 10rem); */
+    /* min-height: 100vh; */
+    /* text-align: center; */
+    /* background-color: orangered; */
+}
+
+.main-section h1 {
+    font-size: 1.5rem;
+}
+.carosel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background-color: yellow;
+    .image {
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .visible {
+       z-index: 1;
+    }
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+
+
+
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+  height: 3rem;
+  border-top:1px solid grey;
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* MAIN SECTION */
+
+.sub-section {
+    .image-container {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       row-gap: 2rem;
+       column-gap: 2rem;
+    }
+}
+
+.sub-section  {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+button {
+    margin: 4px 0px;
+}
+
+.sub-section .image-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+article{
+    background: white;
+    text-align: center;
+}
+
+article p {
+    padding-top: 3px;
+}
+
+
+/* MODAL  */
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+/* footer css  */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content a {
+    font-size: 16px;
+    color: white;
+    
+}
+
+

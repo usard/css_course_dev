@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="view-port" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Mobile store App</title>
+
+    <!-- ***** SCRIPT TO HELP OLD IE UNDERSTAND HTML5 AND MEDIA QUERIES -->
+    
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+        <!-- style sheets -->
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/phone.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/medium-screen.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/large-screen.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class='logo'>Mobile store</h1>
+            <h2 class="catcher">one stop store for your needs</h2>
+        </div>
+    </header>
+
+    
+    <main>
+        <section class="main-section">
+            <h2>Latest Updates</h2>
+            <div class="carosel">
+                <div id="slider">
+                   <!-- displayed dynamically -->
+                </div>
+                <div id="navigation-dots">
+                    <!-- displayed dynamically -->
+                </div>
+            </div>
+            <div class="sub-section">
+                <button type="button">load all mobiles</button>
+                 <div class="image-container">
+                     
+                 </div>
+
+                </div>
+                <div class="modal">
+                    <div class="modal-content">
+                        <button class="modal-close">&times;</button>
+                        <!-- <img src="" class="modal-image" alt="modal_image"> -->
+                    </div>
+                </div>
+        </section>
+    </main>
+    
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li class="nav-link"><a href="">Home</a></li>
+            <li class="nav-link"><a href="">Products</a></li>
+            <li class="nav-link"><a href="">store</a></li>
+            <li class="nav-link" ><a href="">About us</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        &copy;Mobile store
+        <div class="content">
+             <a href="#" title="Privacy Policy">Privacy Policy</a>
+             <a href="#" title="Terms of Service">Terms of Service</a>
+        </div>
+     </footer>
+
+     <script type="module" src="./js/index.js"></script>
+</body>
+</html>
